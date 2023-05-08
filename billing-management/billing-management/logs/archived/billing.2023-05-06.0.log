@@ -1,0 +1,26 @@
+2023-05-06 14:37:18,135 [main] INFO  BillingManagementApplication - Starting BillingManagementApplication using Java 18.0.1.1 on DESKTOP-S275LOG with PID 6564 (C:\Users\seshu\Desktop\billing-management\billing-management\target\classes started by seshu in C:\Users\seshu\Desktop\billing-management\billing-management)
+2023-05-06 14:37:18,138 [main] DEBUG BillingManagementApplication - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-05-06 14:37:18,139 [main] INFO  BillingManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-06 14:37:18,873 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-06 14:37:18,954 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
+2023-05-06 14:37:19,738 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-06 14:37:19,753 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-06 14:37:19,754 [main] INFO  StandardService - Starting service [Tomcat]
+2023-05-06 14:37:19,754 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-05-06 14:37:20,065 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2023-05-06 14:37:20,065 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1866 ms
+2023-05-06 14:37:20,272 [main] INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-06 14:37:20,342 [main] INFO  Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-06 14:37:20,513 [main] INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-06 14:37:20,632 [main] INFO  HikariDataSource - HikariPool-1 - Starting...
+2023-05-06 14:37:20,859 [main] INFO  HikariDataSource - HikariPool-1 - Start completed.
+2023-05-06 14:37:20,892 [main] INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-05-06 14:37:21,664 [main] INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-06 14:37:21,670 [main] INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-06 14:37:22,068 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-06 14:37:22,358 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-06 14:37:22,381 [main] INFO  TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-06 14:37:22,393 [main] INFO  BillingManagementApplication - Started BillingManagementApplication in 4.708 seconds (JVM running for 5.617)
+2023-05-06 14:39:14,281 [SpringApplicationShutdownHook] INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-06 14:39:14,281 [SpringApplicationShutdownHook] INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-06 14:39:14,281 [SpringApplicationShutdownHook] INFO  HikariDataSource - HikariPool-1 - Shutdown completed.

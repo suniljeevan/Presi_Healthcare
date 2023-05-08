@@ -1,0 +1,513 @@
+2023-05-08 10:18:02,917 [main] INFO  BillingManagementApplication - Starting BillingManagementApplication using Java 18.0.1.1 on DESKTOP-S275LOG with PID 16976 (C:\Users\seshu\Desktop\billing-management\billing-management\target\classes started by seshu in C:\Users\seshu\Desktop\billing-management\billing-management)
+2023-05-08 10:18:02,924 [main] DEBUG BillingManagementApplication - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-05-08 10:18:02,925 [main] INFO  BillingManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-08 10:18:03,942 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-08 10:18:04,646 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 624 ms. Found 1 JPA repository interfaces.
+2023-05-08 10:18:05,355 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-08 10:18:05,377 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-08 10:18:05,377 [main] INFO  StandardService - Starting service [Tomcat]
+2023-05-08 10:18:05,377 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-05-08 10:18:05,668 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2023-05-08 10:18:05,668 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2680 ms
+2023-05-08 10:18:05,914 [main] INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-08 10:18:05,974 [main] INFO  Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-08 10:18:06,184 [main] INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-08 10:18:06,345 [main] INFO  HikariDataSource - HikariPool-1 - Starting...
+2023-05-08 10:18:06,617 [main] INFO  HikariDataSource - HikariPool-1 - Start completed.
+2023-05-08 10:18:06,653 [main] INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-05-08 10:18:07,460 [main] INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-08 10:18:07,474 [main] INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 10:18:07,939 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-08 10:18:08,283 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-08 10:18:08,309 [main] INFO  TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-08 10:18:08,321 [main] INFO  BillingManagementApplication - Started BillingManagementApplication in 5.867 seconds (JVM running for 6.772)
+2023-05-08 10:18:48,588 [http-nio-8080-exec-1] INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 10:18:48,588 [http-nio-8080-exec-1] INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-08 10:18:48,596 [http-nio-8080-exec-1] INFO  DispatcherServlet - Completed initialization in 8 ms
+2023-05-08 10:18:48,612 [http-nio-8080-exec-1] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-05-08 10:19:10,203 [http-nio-8080-exec-3] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-05-08 10:19:40,480 [http-nio-8080-exec-4] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-05-08 10:19:59,786 [SpringApplicationShutdownHook] INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 10:19:59,789 [SpringApplicationShutdownHook] INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-08 10:19:59,795 [SpringApplicationShutdownHook] INFO  HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-08 10:21:34,495 [main] INFO  BillingManagementApplication - Starting BillingManagementApplication using Java 18.0.1.1 on DESKTOP-S275LOG with PID 3620 (C:\Users\seshu\Desktop\billing-management\billing-management\target\classes started by seshu in C:\Users\seshu\Desktop\billing-management\billing-management)
+2023-05-08 10:21:34,497 [main] DEBUG BillingManagementApplication - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-05-08 10:21:34,498 [main] INFO  BillingManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-08 10:21:35,255 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-08 10:21:35,331 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
+2023-05-08 10:21:36,008 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-08 10:21:36,021 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-08 10:21:36,021 [main] INFO  StandardService - Starting service [Tomcat]
+2023-05-08 10:21:36,021 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-05-08 10:21:36,259 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2023-05-08 10:21:36,259 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1688 ms
+2023-05-08 10:21:36,468 [main] INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-08 10:21:36,541 [main] INFO  Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-08 10:21:36,751 [main] INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-08 10:21:36,879 [main] INFO  HikariDataSource - HikariPool-1 - Starting...
+2023-05-08 10:21:37,140 [main] INFO  HikariDataSource - HikariPool-1 - Start completed.
+2023-05-08 10:21:37,181 [main] INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-05-08 10:21:38,111 [main] INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-08 10:21:38,119 [main] INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 10:21:38,461 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-08 10:21:38,743 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-08 10:21:38,768 [main] INFO  TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-08 10:21:38,776 [main] INFO  BillingManagementApplication - Started BillingManagementApplication in 4.706 seconds (JVM running for 5.562)
+2023-05-08 10:21:42,148 [http-nio-8080-exec-2] INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 10:21:42,148 [http-nio-8080-exec-2] INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-08 10:21:42,148 [http-nio-8080-exec-2] INFO  DispatcherServlet - Completed initialization in 0 ms
+2023-05-08 10:21:52,756 [http-nio-8080-exec-3] INFO  BillingController - Getting bill details by billId: 5
+2023-05-08 10:22:00,368 [http-nio-8080-exec-4] INFO  BillingController - Getting bill details by billId: 3
+2023-05-08 10:27:47,534 [http-nio-8080-exec-7] INFO  BillingController - Getting bill details by billId: 4
+2023-05-08 10:27:51,277 [http-nio-8080-exec-8] INFO  BillingController - Getting bill details by billId: 5
+2023-05-08 10:27:53,591 [http-nio-8080-exec-9] INFO  BillingController - Getting bill details by billId: 6
+2023-05-08 10:28:47,880 [http-nio-8080-exec-10] DEBUG BillingServiceImpl - Deleting bill details with billId: 2
+2023-05-08 10:29:40,905 [http-nio-8080-exec-1] DEBUG BillingServiceImpl - Deleting bill details with billId: 4
+2023-05-08 10:34:11,560 [SpringApplicationShutdownHook] INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 10:34:11,560 [SpringApplicationShutdownHook] INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-08 10:34:11,575 [SpringApplicationShutdownHook] INFO  HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-08 15:49:34,937 [main] INFO  BillingManagementApplication - Starting BillingManagementApplication using Java 18.0.1.1 on DESKTOP-S275LOG with PID 11840 (C:\Users\seshu\Desktop\billing-management\billing-management\target\classes started by seshu in C:\Users\seshu\Desktop\billing-management\billing-management)
+2023-05-08 15:49:34,939 [main] DEBUG BillingManagementApplication - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-05-08 15:49:34,940 [main] INFO  BillingManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-08 15:49:35,593 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-08 15:49:35,658 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2023-05-08 15:49:36,236 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-08 15:49:36,245 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-08 15:49:36,245 [main] INFO  StandardService - Starting service [Tomcat]
+2023-05-08 15:49:36,246 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-05-08 15:49:36,420 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2023-05-08 15:49:36,420 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1431 ms
+2023-05-08 15:49:36,611 [main] INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-08 15:49:36,671 [main] INFO  Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-08 15:49:36,842 [main] INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-08 15:49:36,930 [main] INFO  HikariDataSource - HikariPool-1 - Starting...
+2023-05-08 15:49:37,136 [main] INFO  HikariDataSource - HikariPool-1 - Start completed.
+2023-05-08 15:49:37,172 [main] INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-05-08 15:49:38,032 [main] INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-08 15:49:38,038 [main] INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 15:49:38,423 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-08 15:49:38,751 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-08 15:49:38,772 [main] INFO  TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-08 15:49:38,781 [main] INFO  BillingManagementApplication - Started BillingManagementApplication in 4.263 seconds (JVM running for 5.105)
+2023-05-08 15:52:44,917 [SpringApplicationShutdownHook] INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 15:52:44,919 [SpringApplicationShutdownHook] INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-08 15:52:44,924 [SpringApplicationShutdownHook] INFO  HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-08 15:59:49,723 [main] INFO  SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.billing.BillingManagementApplicationTests], using SpringBootContextLoader
+2023-05-08 15:59:49,731 [main] INFO  AbstractContextLoader - Could not detect default resource locations for test class [com.billing.BillingManagementApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-05-08 15:59:49,732 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.billing.BillingManagementApplicationTests]: BillingManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-08 15:59:49,851 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.billing.BillingManagementApplication for test class com.billing.BillingManagementApplicationTests
+2023-05-08 15:59:49,974 [main] INFO  SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-05-08 15:59:49,997 [main] INFO  SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@447a020, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7f36662c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@28e8dde3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6d23017e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@54dcfa5a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1817f1eb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@767e20cf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3a3e78f, org.springframework.test.context.event.EventPublishingTestExecutionListener@301ec38b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@17a1e4ca, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@10ded6a9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@c5dc4a2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4a194c39, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@52066604, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@340b9973]
+2023-05-08 15:59:50,335 [main] INFO  BillingManagementApplicationTests - Starting BillingManagementApplicationTests using Java 18.0.1.1 on DESKTOP-S275LOG with PID 27888 (started by seshu in C:\Users\seshu\Desktop\billing-management\billing-management)
+2023-05-08 15:59:50,336 [main] DEBUG BillingManagementApplicationTests - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-05-08 15:59:50,336 [main] INFO  BillingManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-08 15:59:51,022 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-08 15:59:51,081 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2023-05-08 15:59:51,738 [main] INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-08 15:59:51,804 [main] INFO  Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-08 15:59:52,027 [main] INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-08 15:59:52,177 [main] INFO  HikariDataSource - HikariPool-1 - Starting...
+2023-05-08 15:59:52,470 [main] INFO  HikariDataSource - HikariPool-1 - Start completed.
+2023-05-08 15:59:52,529 [main] INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-05-08 15:59:53,426 [main] INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-08 15:59:53,436 [main] INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 15:59:54,140 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-08 15:59:54,761 [main] INFO  BillingManagementApplicationTests - Started BillingManagementApplicationTests in 4.716 seconds (JVM running for 8.228)
+2023-05-08 15:59:54,955 [SpringApplicationShutdownHook] INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 15:59:54,957 [SpringApplicationShutdownHook] INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-08 15:59:54,963 [SpringApplicationShutdownHook] INFO  HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-08 16:00:32,333 [main] INFO  BillingManagementApplication - Starting BillingManagementApplication using Java 18.0.1.1 on DESKTOP-S275LOG with PID 10808 (C:\Users\seshu\Desktop\billing-management\billing-management\target\classes started by seshu in C:\Users\seshu\Desktop\billing-management\billing-management)
+2023-05-08 16:00:32,337 [main] DEBUG BillingManagementApplication - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-05-08 16:00:32,338 [main] INFO  BillingManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-08 16:00:32,882 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-08 16:00:32,935 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2023-05-08 16:00:33,448 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-08 16:00:33,459 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-08 16:00:33,459 [main] INFO  StandardService - Starting service [Tomcat]
+2023-05-08 16:00:33,459 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-05-08 16:00:33,646 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2023-05-08 16:00:33,647 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1256 ms
+2023-05-08 16:00:33,799 [main] INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-08 16:00:33,844 [main] INFO  Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-08 16:00:33,986 [main] INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-08 16:00:34,062 [main] INFO  HikariDataSource - HikariPool-1 - Starting...
+2023-05-08 16:00:34,232 [main] INFO  HikariDataSource - HikariPool-1 - Start completed.
+2023-05-08 16:00:34,261 [main] INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-05-08 16:00:34,869 [main] INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-08 16:00:34,876 [main] INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 16:00:35,194 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-08 16:00:35,443 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-08 16:00:35,462 [main] INFO  TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-08 16:00:35,470 [main] INFO  BillingManagementApplication - Started BillingManagementApplication in 3.499 seconds (JVM running for 4.127)
+2023-05-08 16:02:38,413 [http-nio-8080-exec-1] INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 16:02:38,413 [http-nio-8080-exec-1] INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-08 16:02:38,413 [http-nio-8080-exec-1] INFO  DispatcherServlet - Completed initialization in 0 ms
+2023-05-08 16:04:13,103 [SpringApplicationShutdownHook] INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 16:04:13,106 [SpringApplicationShutdownHook] INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-08 16:04:13,117 [SpringApplicationShutdownHook] INFO  HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-08 19:23:36,612 [main] INFO  BillingManagementApplication - Starting BillingManagementApplication using Java 18.0.1.1 on DESKTOP-S275LOG with PID 20988 (C:\Users\seshu\Desktop\billing-management\billing-management\target\classes started by seshu in C:\Users\seshu\Desktop\billing-management\billing-management)
+2023-05-08 19:23:36,619 [main] DEBUG BillingManagementApplication - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-05-08 19:23:36,619 [main] INFO  BillingManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-08 19:23:37,348 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-08 19:23:37,408 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2023-05-08 19:23:38,006 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-08 19:23:38,016 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-08 19:23:38,016 [main] INFO  StandardService - Starting service [Tomcat]
+2023-05-08 19:23:38,017 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-05-08 19:23:38,218 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2023-05-08 19:23:38,218 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1535 ms
+2023-05-08 19:23:38,438 [main] INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-08 19:23:38,507 [main] INFO  Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-08 19:23:38,700 [main] INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-08 19:23:38,805 [main] INFO  HikariDataSource - HikariPool-1 - Starting...
+2023-05-08 19:23:39,147 [main] INFO  HikariDataSource - HikariPool-1 - Start completed.
+2023-05-08 19:23:39,184 [main] INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-08 19:23:39,975 [main] INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-08 19:23:39,982 [main] INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 19:23:40,431 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-08 19:23:40,705 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-08 19:23:40,730 [main] INFO  TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-08 19:23:40,738 [main] INFO  BillingManagementApplication - Started BillingManagementApplication in 4.533 seconds (JVM running for 5.522)
+2023-05-08 19:24:33,928 [http-nio-8080-exec-2] INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 19:24:33,928 [http-nio-8080-exec-2] INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-08 19:24:33,930 [http-nio-8080-exec-2] INFO  DispatcherServlet - Completed initialization in 0 ms
+2023-05-08 19:24:34,032 [http-nio-8080-exec-2] DEBUG BillingServiceImpl - save bill details with saveBillDetails: [PatientBilling(billId=null, name=sairam, contact=8978978546, appointmentFee=800.0, medicalExpenses=500.0, totalExpenses=1300.0)]
+2023-05-08 19:39:59,230 [SpringApplicationShutdownHook] INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 19:39:59,259 [SpringApplicationShutdownHook] INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-08 19:39:59,303 [SpringApplicationShutdownHook] INFO  HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-08 19:50:32,844 [main] INFO  BillingManagementApplication - Starting BillingManagementApplication using Java 18.0.1.1 on DESKTOP-S275LOG with PID 21944 (C:\Users\seshu\Desktop\billing-management\billing-management\target\classes started by seshu in C:\Users\seshu\Desktop\billing-management\billing-management)
+2023-05-08 19:50:32,846 [main] DEBUG BillingManagementApplication - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-05-08 19:50:32,847 [main] INFO  BillingManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-08 19:50:33,810 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-08 19:50:33,895 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
+2023-05-08 19:50:34,741 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-08 19:50:34,756 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-08 19:50:34,757 [main] INFO  StandardService - Starting service [Tomcat]
+2023-05-08 19:50:34,757 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-05-08 19:50:35,010 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2023-05-08 19:50:35,011 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2078 ms
+2023-05-08 19:50:35,236 [main] INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-08 19:50:35,330 [main] INFO  Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-08 19:50:35,547 [main] INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-08 19:50:35,659 [main] INFO  HikariDataSource - HikariPool-1 - Starting...
+2023-05-08 19:50:36,096 [main] INFO  HikariDataSource - HikariPool-1 - Start completed.
+2023-05-08 19:50:36,136 [main] INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-08 19:50:36,997 [main] INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-08 19:50:37,004 [main] INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 19:50:37,568 [main] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceInitializer' defined in class path resource [com/billing/config/DatabaseConfig.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of class path resource [billingdb.sql]: CREATE DATABASE IF NOT EXISTS `billing1` USE `billing1`; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'USE `billing1`' at line 1
+2023-05-08 19:50:37,569 [main] INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 19:50:37,571 [main] INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-08 19:50:37,580 [main] INFO  HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-08 19:50:37,583 [main] INFO  StandardService - Stopping service [Tomcat]
+2023-05-08 19:50:37,598 [main] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-08 19:50:37,626 [main] ERROR SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceInitializer' defined in class path resource [com/billing/config/DatabaseConfig.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of class path resource [billingdb.sql]: CREATE DATABASE IF NOT EXISTS `billing1` USE `billing1`; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'USE `billing1`' at line 1
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.billing.BillingManagementApplication.main(BillingManagementApplication.java:10)
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of class path resource [billingdb.sql]: CREATE DATABASE IF NOT EXISTS `billing1` USE `billing1`; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'USE `billing1`' at line 1
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:54)
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.execute(DataSourceInitializer.java:111)
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.afterPropertiesSet(DataSourceInitializer.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'USE `billing1`' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:762)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:646)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
+	... 22 common frames omitted
+2023-05-08 19:51:52,495 [main] INFO  BillingManagementApplication - Starting BillingManagementApplication using Java 18.0.1.1 on DESKTOP-S275LOG with PID 268 (C:\Users\seshu\Desktop\billing-management\billing-management\target\classes started by seshu in C:\Users\seshu\Desktop\billing-management\billing-management)
+2023-05-08 19:51:52,499 [main] DEBUG BillingManagementApplication - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-05-08 19:51:52,500 [main] INFO  BillingManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-08 19:51:53,502 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-08 19:51:53,568 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2023-05-08 19:51:54,325 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-08 19:51:54,335 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-08 19:51:54,336 [main] INFO  StandardService - Starting service [Tomcat]
+2023-05-08 19:51:54,336 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-05-08 19:51:54,554 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2023-05-08 19:51:54,555 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1968 ms
+2023-05-08 19:51:54,893 [main] INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-08 19:51:54,947 [main] INFO  Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-08 19:51:55,138 [main] INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-08 19:51:55,236 [main] INFO  HikariDataSource - HikariPool-1 - Starting...
+2023-05-08 19:51:55,566 [main] INFO  HikariDataSource - HikariPool-1 - Start completed.
+2023-05-08 19:51:55,601 [main] INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-08 19:51:56,387 [main] INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-08 19:51:56,394 [main] INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 19:51:56,882 [main] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceInitializer' defined in class path resource [com/billing/config/DatabaseConfig.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of class path resource [billingdb.sql]: CREATE DATABASE IF NOT EXISTS "billing1" USE "billing1"; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"billing1" USE "billing1"' at line 1
+2023-05-08 19:51:56,883 [main] INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 19:51:56,887 [main] INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-08 19:51:56,897 [main] INFO  HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-08 19:51:56,901 [main] INFO  StandardService - Stopping service [Tomcat]
+2023-05-08 19:51:56,915 [main] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-08 19:51:56,940 [main] ERROR SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceInitializer' defined in class path resource [com/billing/config/DatabaseConfig.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of class path resource [billingdb.sql]: CREATE DATABASE IF NOT EXISTS "billing1" USE "billing1"; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"billing1" USE "billing1"' at line 1
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.billing.BillingManagementApplication.main(BillingManagementApplication.java:10)
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of class path resource [billingdb.sql]: CREATE DATABASE IF NOT EXISTS "billing1" USE "billing1"; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"billing1" USE "billing1"' at line 1
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:54)
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.execute(DataSourceInitializer.java:111)
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.afterPropertiesSet(DataSourceInitializer.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"billing1" USE "billing1"' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:762)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:646)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
+	... 22 common frames omitted
+2023-05-08 19:52:25,685 [main] INFO  BillingManagementApplication - Starting BillingManagementApplication using Java 18.0.1.1 on DESKTOP-S275LOG with PID 21584 (C:\Users\seshu\Desktop\billing-management\billing-management\target\classes started by seshu in C:\Users\seshu\Desktop\billing-management\billing-management)
+2023-05-08 19:52:25,689 [main] DEBUG BillingManagementApplication - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-05-08 19:52:25,690 [main] INFO  BillingManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-08 19:52:26,510 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-08 19:52:26,594 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interfaces.
+2023-05-08 19:52:27,336 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-08 19:52:27,348 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-08 19:52:27,349 [main] INFO  StandardService - Starting service [Tomcat]
+2023-05-08 19:52:27,349 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-05-08 19:52:27,552 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2023-05-08 19:52:27,552 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1788 ms
+2023-05-08 19:52:27,813 [main] INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-08 19:52:27,880 [main] INFO  Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-08 19:52:28,095 [main] INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-08 19:52:28,193 [main] INFO  HikariDataSource - HikariPool-1 - Starting...
+2023-05-08 19:52:28,498 [main] INFO  HikariDataSource - HikariPool-1 - Start completed.
+2023-05-08 19:52:28,535 [main] INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-08 19:52:29,327 [main] INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-08 19:52:29,336 [main] INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 19:52:29,835 [main] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceInitializer' defined in class path resource [com/billing/config/DatabaseConfig.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of class path resource [billingdb.sql]: CREATE DATABASE IF NOT EXISTS "billing1"; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"billing1"' at line 1
+2023-05-08 19:52:29,836 [main] INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 19:52:29,838 [main] INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-08 19:52:29,850 [main] INFO  HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-08 19:52:29,853 [main] INFO  StandardService - Stopping service [Tomcat]
+2023-05-08 19:52:29,868 [main] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-08 19:52:29,901 [main] ERROR SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceInitializer' defined in class path resource [com/billing/config/DatabaseConfig.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of class path resource [billingdb.sql]: CREATE DATABASE IF NOT EXISTS "billing1"; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"billing1"' at line 1
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.billing.BillingManagementApplication.main(BillingManagementApplication.java:10)
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of class path resource [billingdb.sql]: CREATE DATABASE IF NOT EXISTS "billing1"; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"billing1"' at line 1
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:54)
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.execute(DataSourceInitializer.java:111)
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.afterPropertiesSet(DataSourceInitializer.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"billing1"' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:762)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:646)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
+	... 22 common frames omitted
+2023-05-08 19:53:29,237 [main] INFO  BillingManagementApplication - Starting BillingManagementApplication using Java 18.0.1.1 on DESKTOP-S275LOG with PID 13976 (C:\Users\seshu\Desktop\billing-management\billing-management\target\classes started by seshu in C:\Users\seshu\Desktop\billing-management\billing-management)
+2023-05-08 19:53:29,242 [main] DEBUG BillingManagementApplication - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-05-08 19:53:29,243 [main] INFO  BillingManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-08 19:53:30,124 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-08 19:53:30,206 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2023-05-08 19:53:30,906 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-08 19:53:30,917 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-08 19:53:30,918 [main] INFO  StandardService - Starting service [Tomcat]
+2023-05-08 19:53:30,918 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-05-08 19:53:31,134 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2023-05-08 19:53:31,134 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1814 ms
+2023-05-08 19:53:31,372 [main] INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-08 19:53:31,447 [main] INFO  Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-08 19:53:31,662 [main] INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-08 19:53:31,767 [main] INFO  HikariDataSource - HikariPool-1 - Starting...
+2023-05-08 19:53:32,119 [main] INFO  HikariDataSource - HikariPool-1 - Start completed.
+2023-05-08 19:53:32,158 [main] INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-08 19:53:32,955 [main] INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-08 19:53:32,962 [main] INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 19:53:33,470 [main] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceInitializer' defined in class path resource [com/billing/config/DatabaseConfig.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of class path resource [billingdb.sql]: CREATE DATABASE IF NOT EXISTS 'billing1'; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''billing1'' at line 1
+2023-05-08 19:53:33,471 [main] INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 19:53:33,473 [main] INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-08 19:53:33,484 [main] INFO  HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-08 19:53:33,486 [main] INFO  StandardService - Stopping service [Tomcat]
+2023-05-08 19:53:33,500 [main] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-08 19:53:33,527 [main] ERROR SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceInitializer' defined in class path resource [com/billing/config/DatabaseConfig.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of class path resource [billingdb.sql]: CREATE DATABASE IF NOT EXISTS 'billing1'; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''billing1'' at line 1
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.billing.BillingManagementApplication.main(BillingManagementApplication.java:10)
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of class path resource [billingdb.sql]: CREATE DATABASE IF NOT EXISTS 'billing1'; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''billing1'' at line 1
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:54)
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.execute(DataSourceInitializer.java:111)
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.afterPropertiesSet(DataSourceInitializer.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''billing1'' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:762)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:646)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
+	... 22 common frames omitted
+2023-05-08 19:54:22,693 [main] INFO  BillingManagementApplication - Starting BillingManagementApplication using Java 18.0.1.1 on DESKTOP-S275LOG with PID 19108 (C:\Users\seshu\Desktop\billing-management\billing-management\target\classes started by seshu in C:\Users\seshu\Desktop\billing-management\billing-management)
+2023-05-08 19:54:22,697 [main] DEBUG BillingManagementApplication - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-05-08 19:54:22,699 [main] INFO  BillingManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-08 19:54:23,471 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-08 19:54:23,556 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interfaces.
+2023-05-08 19:54:24,354 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-08 19:54:24,364 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-08 19:54:24,366 [main] INFO  StandardService - Starting service [Tomcat]
+2023-05-08 19:54:24,366 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-05-08 19:54:24,586 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2023-05-08 19:54:24,586 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1811 ms
+2023-05-08 19:54:24,807 [main] INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-08 19:54:24,870 [main] INFO  Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-08 19:54:25,083 [main] INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-08 19:54:25,185 [main] INFO  HikariDataSource - HikariPool-1 - Starting...
+2023-05-08 19:54:25,499 [main] INFO  HikariDataSource - HikariPool-1 - Start completed.
+2023-05-08 19:54:25,535 [main] INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-08 19:54:26,330 [main] INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-08 19:54:26,338 [main] INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 19:54:26,833 [main] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceInitializer' defined in class path resource [com/billing/config/DatabaseConfig.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of class path resource [billingdb.sql]: CREATE DATABASE IF NOT EXISTS ''billing1''; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''billing1''' at line 1
+2023-05-08 19:54:26,834 [main] INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 19:54:26,836 [main] INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-08 19:54:26,845 [main] INFO  HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-08 19:54:26,847 [main] INFO  StandardService - Stopping service [Tomcat]
+2023-05-08 19:54:26,862 [main] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-08 19:54:26,890 [main] ERROR SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceInitializer' defined in class path resource [com/billing/config/DatabaseConfig.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of class path resource [billingdb.sql]: CREATE DATABASE IF NOT EXISTS ''billing1''; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''billing1''' at line 1
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.billing.BillingManagementApplication.main(BillingManagementApplication.java:10)
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of class path resource [billingdb.sql]: CREATE DATABASE IF NOT EXISTS ''billing1''; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''billing1''' at line 1
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:54)
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.execute(DataSourceInitializer.java:111)
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.afterPropertiesSet(DataSourceInitializer.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''billing1''' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:762)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:646)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
+	... 22 common frames omitted
+2023-05-08 19:55:50,048 [main] INFO  BillingManagementApplication - Starting BillingManagementApplication using Java 18.0.1.1 on DESKTOP-S275LOG with PID 18408 (C:\Users\seshu\Desktop\billing-management\billing-management\target\classes started by seshu in C:\Users\seshu\Desktop\billing-management\billing-management)
+2023-05-08 19:55:50,052 [main] DEBUG BillingManagementApplication - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-05-08 19:55:50,053 [main] INFO  BillingManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-08 19:55:50,913 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-08 19:55:51,000 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
+2023-05-08 19:55:51,748 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-08 19:55:51,757 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-08 19:55:51,758 [main] INFO  StandardService - Starting service [Tomcat]
+2023-05-08 19:55:51,758 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-05-08 19:55:51,972 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2023-05-08 19:55:51,973 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1842 ms
+2023-05-08 19:55:52,222 [main] INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-08 19:55:52,286 [main] INFO  Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-08 19:55:52,501 [main] INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-08 19:55:52,601 [main] INFO  HikariDataSource - HikariPool-1 - Starting...
+2023-05-08 19:55:52,945 [main] INFO  HikariDataSource - HikariPool-1 - Start completed.
+2023-05-08 19:55:52,982 [main] INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-08 19:55:53,819 [main] INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-08 19:55:53,827 [main] INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 19:55:54,531 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-08 19:55:54,976 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-08 19:55:55,008 [main] INFO  TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-08 19:55:55,019 [main] INFO  BillingManagementApplication - Started BillingManagementApplication in 5.484 seconds (JVM running for 6.382)
+2023-05-08 19:57:13,895 [SpringApplicationShutdownHook] INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-08 19:57:13,898 [SpringApplicationShutdownHook] INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-08 19:57:13,910 [SpringApplicationShutdownHook] INFO  HikariDataSource - HikariPool-1 - Shutdown completed.
