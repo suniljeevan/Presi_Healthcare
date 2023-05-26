@@ -1,0 +1,12 @@
+2023-05-22 21:23:26.573 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-22 21:23:28.065 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-05-22 21:24:06.560 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-22 21:24:08.440 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-05-22 21:28:29.249 [http-nio-9005-exec-3] WARN  c.r.s.c.AppointmentController - warn message -- fetching  appointment by patient id
+2023-05-22 21:28:38.505 [http-nio-9002-exec-1] WARN  c.r.s.c.AppointmentController - warn message -- fetching all appointment
+2023-05-22 21:28:41.832 [http-nio-9005-exec-4] WARN  c.r.ss.controller.DoctorController - warn message -- fetching all doctors
+2023-05-22 21:28:43.954 [http-nio-9002-exec-2] WARN  c.r.ss.controller.PatientController - warn message -- fetching all patients
+2023-05-22 21:29:35.338 [http-nio-9002-exec-3] WARN  c.r.s.c.AppointmentController - warn message -- fetching  appointment by doctor id
+2023-05-22 21:30:02.600 [http-nio-9005-exec-8] WARN  c.r.s.c.AppointmentController - warn message -- fetching  appointment by time
+2023-05-22 21:30:21.153 [http-nio-9002-exec-4] WARN  c.r.s.c.AppointmentController - warn message -- fetching  appointment by date
+2023-05-22 21:31:56.020 [http-nio-9005-exec-2] WARN  c.r.ss.controller.PatientController - warn message -- fetching patient by insurance provider

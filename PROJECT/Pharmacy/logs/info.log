@@ -1,0 +1,321 @@
+2023-05-22 21:01:29.791 INFO  [restartedMain] c.pres.Pharmacy.PharmacyApplication - Starting PharmacyApplication using Java 17.0.6 with PID 9404 (C:\Users\Ruheena Zainab L\Downloads\PROJECT\Pharmacy\target\classes started by Ruheena Zainab L in C:\Users\Ruheena Zainab L\Downloads\PROJECT\Pharmacy)
+2023-05-22 21:01:29.802 INFO  [restartedMain] c.pres.Pharmacy.PharmacyApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-22 21:01:29.911 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-22 21:01:29.911 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-22 21:01:31.538 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-22 21:01:31.842 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 286 ms. Found 2 JPA repository interfaces.
+2023-05-22 21:01:32.499 INFO  [restartedMain] o.s.c.context.scope.GenericScope - BeanFactory id=198ad121-0b5a-3be6-91b3-f97a106eb8c2
+2023-05-22 21:01:33.481 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9003 (http)
+2023-05-22 21:01:33.507 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9003"]
+2023-05-22 21:01:33.508 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-22 21:01:33.509 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-22 21:01:33.734 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-22 21:01:33.735 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3823 ms
+2023-05-22 21:01:35.751 INFO  [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2023-05-22 21:01:35.753 INFO  [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2023-05-22 21:01:36.042 INFO  [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2023-05-22 21:01:36.042 INFO  [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2023-05-22 21:01:36.372 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-22 21:01:36.476 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-22 21:01:37.071 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-22 21:01:37.631 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1151b073
+2023-05-22 21:01:37.636 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-22 21:01:37.822 INFO  [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-05-22 21:01:38.278 INFO  [restartedMain] o.h.c.b.TypeSafeActivator - Error calling `jakarta.validation.Validation#buildDefaultValidatorFactory`
+jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+	at jakarta.validation.Validation$GenericBootstrapImpl.configure(Validation.java:291)
+	at jakarta.validation.Validation.buildDefaultValidatorFactory(Validation.java:103)
+	at org.hibernate.cfg.beanvalidation.TypeSafeActivator.getValidatorFactory(TypeSafeActivator.java:479)
+	at org.hibernate.cfg.beanvalidation.TypeSafeActivator.activate(TypeSafeActivator.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hibernate.cfg.beanvalidation.BeanValidationIntegrator.integrate(BeanValidationIntegrator.java:137)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:287)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:907)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.pres.Pharmacy.PharmacyApplication.main(PharmacyApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2023-05-22 21:01:39.169 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-22 21:01:39.188 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-22 21:01:40.793 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-05-22 21:01:40.967 INFO  [restartedMain] o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-05-22 21:01:41.070 INFO  [restartedMain] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2023-05-22 21:01:41.140 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2023-05-22 21:01:41.153 INFO  [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:01:41.197 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2023-05-22 21:01:41.197 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2023-05-22 21:01:41.197 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2023-05-22 21:01:41.197 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Application is null : false
+2023-05-22 21:01:41.198 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2023-05-22 21:01:41.198 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2023-05-22 21:01:41.198 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2023-05-22 21:01:41.564 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - The response status is 200
+2023-05-22 21:01:41.570 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2023-05-22 21:01:41.577 INFO  [restartedMain] c.n.d.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-05-22 21:01:41.586 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1684769501583 with initial instances count: 4
+2023-05-22 21:01:41.643 INFO  [restartedMain] c.n.e.DefaultEurekaServerContext - Initializing ...
+2023-05-22 21:01:41.645 INFO  [restartedMain] c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+2023-05-22 21:01:41.708 INFO  [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2023-05-22 21:01:41.708 INFO  [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2023-05-22 21:01:41.708 INFO  [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2023-05-22 21:01:41.708 INFO  [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2023-05-22 21:01:41.779 INFO  [restartedMain] c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+2023-05-22 21:01:41.792 INFO  [restartedMain] c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2023-05-22 21:01:41.793 INFO  [restartedMain] c.n.e.DefaultEurekaServerContext - Initialized
+2023-05-22 21:01:41.806 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-22 21:01:41.954 INFO  [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry - Registering application PHARMACY with eureka with status UP
+2023-05-22 21:01:41.955 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1684769501955, current=UP, previous=STARTING]
+2023-05-22 21:01:41.960 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_PHARMACY/LAPTOP-5IVJGTKS:PHARMACY:9003: registering service...
+2023-05-22 21:01:41.962 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9003"]
+2023-05-22 21:01:41.989 INFO  [Thread-16] o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2023-05-22 21:01:41.991 INFO  [Thread-16] o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2023-05-22 21:01:42.009 INFO  [Thread-16] c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/LAPTOP-5IVJGTKS:API-GATEWAY:9191 with status UP (replication=true)
+2023-05-22 21:01:42.010 INFO  [Thread-16] c.n.e.r.AbstractInstanceRegistry - Registered instance HOSPITAL-MANAGEMENT/LAPTOP-5IVJGTKS:HOSPITAL-MANAGEMENT:9002 with status UP (replication=true)
+2023-05-22 21:01:42.012 INFO  [Thread-16] c.n.e.r.AbstractInstanceRegistry - Registered instance BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9001 with status UP (replication=true)
+2023-05-22 21:01:42.013 INFO  [Thread-16] c.n.e.r.AbstractInstanceRegistry - Registered instance CONFIG-SERVER/LAPTOP-5IVJGTKS:CONFIG-SERVER:9296 with status UP (replication=true)
+2023-05-22 21:01:42.014 INFO  [Thread-16] c.n.e.r.PeerAwareInstanceRegistryImpl - Got 4 instances from neighboring DS node
+2023-05-22 21:01:42.015 INFO  [Thread-16] c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 6
+2023-05-22 21:01:42.016 INFO  [Thread-16] c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2023-05-22 21:01:42.028 INFO  [Thread-16] o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2023-05-22 21:01:42.043 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9003 (http) with context path ''
+2023-05-22 21:01:42.046 INFO  [restartedMain] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9003
+2023-05-22 21:01:42.060 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_PHARMACY/LAPTOP-5IVJGTKS:PHARMACY:9003 - registration status: 204
+2023-05-22 21:01:42.302 INFO  [restartedMain] c.pres.Pharmacy.PharmacyApplication - Started PharmacyApplication in 13.358 seconds (process running for 17.412)
+2023-05-22 21:01:43.244 INFO  [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-22 21:01:43.244 INFO  [RMI TCP Connection(11)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-22 21:01:43.247 INFO  [RMI TCP Connection(11)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-05-22 21:02:19.902 INFO  [http-nio-9003-exec-1] c.p.P.controller.PharmacyController - [getMessage] info message
+2023-05-22 21:02:22.588 INFO  [http-nio-9003-exec-2] c.p.P.c.InventoryController - [getMessage] info message
+2023-05-22 21:02:42.018 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:03:42.023 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2023-05-22 21:04:42.023 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:05:42.033 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2023-05-22 21:06:41.203 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:06:42.037 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2023-05-22 21:07:42.046 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 9ms
+2023-05-22 21:08:42.049 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2023-05-22 21:09:20.350 INFO  [RMI TCP Connection(21)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-05-22 21:09:20.375 INFO  [RMI TCP Connection(21)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application PHARMACY with eureka with status DOWN
+2023-05-22 21:09:20.375 INFO  [RMI TCP Connection(21)-127.0.0.1] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1684769960375, current=DOWN, previous=UP]
+2023-05-22 21:09:20.375 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_PHARMACY/LAPTOP-5IVJGTKS:PHARMACY:9003: registering service...
+2023-05-22 21:09:20.389 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_PHARMACY/LAPTOP-5IVJGTKS:PHARMACY:9003 - registration status: 204
+2023-05-22 21:09:20.426 INFO  [RMI TCP Connection(21)-127.0.0.1] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9003"]
+2023-05-22 21:09:20.426 INFO  [RMI TCP Connection(21)-127.0.0.1] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-05-22 21:09:20.434 INFO  [RMI TCP Connection(21)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-22 21:09:20.473 INFO  [RMI TCP Connection(21)-127.0.0.1] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9003"]
+2023-05-22 21:09:20.477 INFO  [RMI TCP Connection(21)-127.0.0.1] o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9003"]
+2023-05-22 21:09:20.477 INFO  [RMI TCP Connection(21)-127.0.0.1] o.s.c.n.e.s.EurekaServerBootstrap - Shutting down Eureka Server..
+2023-05-22 21:09:20.487 INFO  [RMI TCP Connection(21)-127.0.0.1] c.n.e.DefaultEurekaServerContext - Shutting down ...
+2023-05-22 21:09:20.507 INFO  [RMI TCP Connection(22)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-05-22 21:09:20.510 INFO  [RMI TCP Connection(21)-127.0.0.1] c.n.e.DefaultEurekaServerContext - Shut down
+2023-05-22 21:09:20.510 INFO  [RMI TCP Connection(21)-127.0.0.1] o.s.c.n.e.s.EurekaServerBootstrap - Eureka Service is now shutdown...
+2023-05-22 21:09:20.512 INFO  [RMI TCP Connection(21)-127.0.0.1] c.n.e.DefaultEurekaServerContext - Shutting down ...
+2023-05-22 21:09:20.522 INFO  [RMI TCP Connection(21)-127.0.0.1] c.n.e.DefaultEurekaServerContext - Shut down
+2023-05-22 21:09:20.550 INFO  [RMI TCP Connection(21)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-22 21:09:20.562 INFO  [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-22 21:09:20.590 INFO  [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-22 21:09:20.685 INFO  [RMI TCP Connection(21)-127.0.0.1] c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2023-05-22 21:24:00.329 INFO  [restartedMain] c.pres.Pharmacy.PharmacyApplication - Starting PharmacyApplication using Java 17.0.6 with PID 4780 (C:\Users\Ruheena Zainab L\Downloads\PROJECT\Pharmacy\target\classes started by Ruheena Zainab L in C:\Users\Ruheena Zainab L\Downloads\PROJECT\Pharmacy)
+2023-05-22 21:24:00.337 INFO  [restartedMain] c.pres.Pharmacy.PharmacyApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-22 21:24:00.503 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-22 21:24:00.503 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-22 21:24:03.004 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-22 21:24:03.346 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 322 ms. Found 2 JPA repository interfaces.
+2023-05-22 21:24:03.873 INFO  [restartedMain] o.s.c.context.scope.GenericScope - BeanFactory id=198ad121-0b5a-3be6-91b3-f97a106eb8c2
+2023-05-22 21:24:05.090 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9003 (http)
+2023-05-22 21:24:05.115 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9003"]
+2023-05-22 21:24:05.116 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-22 21:24:05.116 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-22 21:24:05.270 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-22 21:24:05.271 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4766 ms
+2023-05-22 21:24:07.584 INFO  [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2023-05-22 21:24:07.587 INFO  [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2023-05-22 21:24:07.908 INFO  [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2023-05-22 21:24:07.909 INFO  [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2023-05-22 21:24:08.277 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-22 21:24:08.403 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-22 21:24:09.100 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-22 21:24:09.828 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f058138
+2023-05-22 21:24:09.832 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-22 21:24:10.042 INFO  [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-05-22 21:24:10.571 INFO  [restartedMain] o.h.c.b.TypeSafeActivator - Error calling `jakarta.validation.Validation#buildDefaultValidatorFactory`
+jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+	at jakarta.validation.Validation$GenericBootstrapImpl.configure(Validation.java:291)
+	at jakarta.validation.Validation.buildDefaultValidatorFactory(Validation.java:103)
+	at org.hibernate.cfg.beanvalidation.TypeSafeActivator.getValidatorFactory(TypeSafeActivator.java:479)
+	at org.hibernate.cfg.beanvalidation.TypeSafeActivator.activate(TypeSafeActivator.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hibernate.cfg.beanvalidation.BeanValidationIntegrator.integrate(BeanValidationIntegrator.java:137)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:287)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:907)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.pres.Pharmacy.PharmacyApplication.main(PharmacyApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2023-05-22 21:24:11.979 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-22 21:24:11.998 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-22 21:24:14.019 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-05-22 21:24:14.189 INFO  [restartedMain] o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-05-22 21:24:14.285 INFO  [restartedMain] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2023-05-22 21:24:14.344 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2023-05-22 21:24:14.352 INFO  [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:24:14.389 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2023-05-22 21:24:14.390 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2023-05-22 21:24:14.390 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2023-05-22 21:24:14.390 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Application is null : false
+2023-05-22 21:24:14.390 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2023-05-22 21:24:14.390 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2023-05-22 21:24:14.390 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2023-05-22 21:24:14.753 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - The response status is 200
+2023-05-22 21:24:14.766 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2023-05-22 21:24:14.775 INFO  [restartedMain] c.n.d.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-05-22 21:24:14.786 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1684770854784 with initial instances count: 6
+2023-05-22 21:24:14.902 INFO  [restartedMain] c.n.e.DefaultEurekaServerContext - Initializing ...
+2023-05-22 21:24:14.904 INFO  [restartedMain] c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+2023-05-22 21:24:15.015 INFO  [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2023-05-22 21:24:15.015 INFO  [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2023-05-22 21:24:15.015 INFO  [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2023-05-22 21:24:15.015 INFO  [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2023-05-22 21:24:15.102 INFO  [restartedMain] c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+2023-05-22 21:24:15.117 INFO  [restartedMain] c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2023-05-22 21:24:15.118 INFO  [restartedMain] c.n.e.DefaultEurekaServerContext - Initialized
+2023-05-22 21:24:15.134 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-22 21:24:15.302 INFO  [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry - Registering application PHARMACY with eureka with status UP
+2023-05-22 21:24:15.302 INFO  [restartedMain] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1684770855302, current=UP, previous=STARTING]
+2023-05-22 21:24:15.314 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_PHARMACY/LAPTOP-5IVJGTKS:PHARMACY:9003: registering service...
+2023-05-22 21:24:15.316 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9003"]
+2023-05-22 21:24:15.347 INFO  [Thread-16] o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2023-05-22 21:24:15.349 INFO  [Thread-16] o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2023-05-22 21:24:15.384 INFO  [Thread-16] c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/LAPTOP-5IVJGTKS:API-GATEWAY:9191 with status UP (replication=true)
+2023-05-22 21:24:15.385 INFO  [Thread-16] c.n.e.r.AbstractInstanceRegistry - Registered instance HOSPITAL-MANAGEMENT/LAPTOP-5IVJGTKS:HOSPITAL-MANAGEMENT:9002 with status UP (replication=true)
+2023-05-22 21:24:15.386 INFO  [Thread-16] c.n.e.r.AbstractInstanceRegistry - Registered instance BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9001 with status UP (replication=true)
+2023-05-22 21:24:15.387 INFO  [Thread-16] c.n.e.r.AbstractInstanceRegistry - Registered instance BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9004 with status UP (replication=true)
+2023-05-22 21:24:15.389 INFO  [Thread-16] c.n.e.r.AbstractInstanceRegistry - Registered instance CONFIG-SERVER/LAPTOP-5IVJGTKS:CONFIG-SERVER:9296 with status UP (replication=true)
+2023-05-22 21:24:15.389 INFO  [Thread-16] c.n.e.r.PeerAwareInstanceRegistryImpl - Got 5 instances from neighboring DS node
+2023-05-22 21:24:15.391 INFO  [Thread-16] c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 8
+2023-05-22 21:24:15.392 INFO  [Thread-16] c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2023-05-22 21:24:15.404 INFO  [Thread-16] o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2023-05-22 21:24:15.421 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9003 (http) with context path ''
+2023-05-22 21:24:15.423 INFO  [restartedMain] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9003
+2023-05-22 21:24:15.437 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_PHARMACY/LAPTOP-5IVJGTKS:PHARMACY:9003 - registration status: 204
+2023-05-22 21:24:15.681 INFO  [restartedMain] c.pres.Pharmacy.PharmacyApplication - Started PharmacyApplication in 16.445 seconds (process running for 20.844)
+2023-05-22 21:24:16.799 INFO  [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-22 21:24:16.800 INFO  [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-22 21:24:16.804 INFO  [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-05-22 21:25:15.407 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:26:15.412 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2023-05-22 21:27:15.415 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2023-05-22 21:28:15.426 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2023-05-22 21:29:14.443 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:29:15.440 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2023-05-22 21:30:15.440 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:31:15.441 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2023-05-22 21:32:15.453 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2023-05-22 21:33:15.455 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2023-05-22 21:34:14.461 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:34:15.456 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:35:15.465 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2023-05-22 21:36:15.472 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2023-05-22 21:37:15.476 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2023-05-22 21:38:15.482 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2023-05-22 21:39:14.470 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:39:15.126 INFO  [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 11
+2023-05-22 21:39:15.483 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:40:15.484 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:41:15.484 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:42:15.484 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:43:15.485 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:44:14.473 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:44:15.486 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:45:15.487 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2023-05-22 21:46:15.487 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:47:15.487 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:48:15.487 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:49:14.474 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:49:15.488 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:50:15.488 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:51:15.489 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:52:15.490 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:52:53.708 INFO  [RMI TCP Connection(46)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-05-22 21:52:53.713 INFO  [RMI TCP Connection(46)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application PHARMACY with eureka with status DOWN
+2023-05-22 21:52:53.713 INFO  [RMI TCP Connection(46)-127.0.0.1] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1684772573713, current=DOWN, previous=UP]
+2023-05-22 21:52:53.714 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_PHARMACY/LAPTOP-5IVJGTKS:PHARMACY:9003: registering service...
+2023-05-22 21:52:53.748 INFO  [RMI TCP Connection(46)-127.0.0.1] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9003"]
+2023-05-22 21:52:53.748 INFO  [RMI TCP Connection(46)-127.0.0.1] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-05-22 21:52:53.754 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_PHARMACY/LAPTOP-5IVJGTKS:PHARMACY:9003 - registration status: 204
+2023-05-22 21:52:53.757 INFO  [RMI TCP Connection(46)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-22 21:52:53.782 INFO  [RMI TCP Connection(46)-127.0.0.1] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9003"]
+2023-05-22 21:52:53.786 INFO  [RMI TCP Connection(46)-127.0.0.1] o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9003"]
+2023-05-22 21:52:53.788 INFO  [RMI TCP Connection(46)-127.0.0.1] o.s.c.n.e.s.EurekaServerBootstrap - Shutting down Eureka Server..
+2023-05-22 21:52:53.796 INFO  [RMI TCP Connection(46)-127.0.0.1] c.n.e.DefaultEurekaServerContext - Shutting down ...
+2023-05-22 21:52:53.799 INFO  [RMI TCP Connection(46)-127.0.0.1] c.n.servo.monitor.StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2023-05-22 21:52:53.801 INFO  [RMI TCP Connection(46)-127.0.0.1] c.n.servo.monitor.StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2023-05-22 21:52:53.803 INFO  [RMI TCP Connection(46)-127.0.0.1] c.n.servo.monitor.StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2023-05-22 21:52:53.804 INFO  [RMI TCP Connection(46)-127.0.0.1] c.n.servo.monitor.StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2023-05-22 21:52:53.817 INFO  [RMI TCP Connection(46)-127.0.0.1] c.n.e.DefaultEurekaServerContext - Shut down
+2023-05-22 21:52:53.817 INFO  [RMI TCP Connection(46)-127.0.0.1] o.s.c.n.e.s.EurekaServerBootstrap - Eureka Service is now shutdown...
+2023-05-22 21:52:53.818 INFO  [RMI TCP Connection(46)-127.0.0.1] c.n.e.DefaultEurekaServerContext - Shutting down ...
+2023-05-22 21:52:53.831 INFO  [RMI TCP Connection(46)-127.0.0.1] c.n.e.DefaultEurekaServerContext - Shut down
+2023-05-22 21:52:53.848 INFO  [RMI TCP Connection(46)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-22 21:52:53.859 INFO  [RMI TCP Connection(46)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-22 21:52:53.881 INFO  [RMI TCP Connection(46)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-22 21:52:54.886 INFO  [RMI TCP Connection(46)-127.0.0.1] c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2023-05-22 21:52:57.900 INFO  [RMI TCP Connection(46)-127.0.0.1] c.netflix.discovery.DiscoveryClient - Unregistering ...
+2023-05-22 21:52:57.979 INFO  [RMI TCP Connection(46)-127.0.0.1] c.netflix.discovery.DiscoveryClient - DiscoveryClient_PHARMACY/LAPTOP-5IVJGTKS:PHARMACY:9003 - deregister  status: 200
+2023-05-22 21:52:57.985 INFO  [RMI TCP Connection(46)-127.0.0.1] c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

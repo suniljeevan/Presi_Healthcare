@@ -1,0 +1,28 @@
+2023-05-16 14:08:15.986 [http-nio-9003-exec-1] ERROR c.p.P.controller.PharmacyController - [getMessage] error message
+2023-05-16 14:08:30.865 [http-nio-9003-exec-4] ERROR c.p.P.controller.InventoryController - [getMessage] error message
+2023-05-16 14:08:39.766 [http-nio-9003-exec-5] ERROR c.p.P.controller.InventoryController - [getMessage] error message
+2023-05-16 14:32:04.076 [http-nio-9003-exec-3] ERROR c.p.P.controller.InventoryController - [getMessage] error message
+2023-05-16 14:34:11.151 [http-nio-9003-exec-4] ERROR c.p.P.controller.InventoryController - [getMessage] error message
+2023-05-16 14:34:50.765 [http-nio-9003-exec-2] ERROR c.p.P.controller.PharmacyController - [getMessage] error message
+2023-05-16 14:35:01.603 [http-nio-9003-exec-3] ERROR c.p.P.controller.PharmacyController - [getMessage] error message
+2023-05-16 15:18:12.582 [http-nio-9003-exec-2] ERROR c.p.P.controller.PharmacyController - [getMessage] error message
+2023-05-16 15:18:36.884 [http-nio-9003-exec-3] ERROR c.p.P.controller.PharmacyController - [getMessage] error message
+2023-05-16 15:18:41.848 [http-nio-9003-exec-4] ERROR c.p.P.controller.InventoryController - [getMessage] error message
+2023-05-16 15:32:51.179 [http-nio-9003-exec-7] ERROR c.p.P.controller.PharmacyController - [getMessage] error message
+2023-05-16 15:32:58.589 [http-nio-9003-exec-8] ERROR c.p.P.controller.PharmacyController - [getMessage] error message
+2023-05-16 15:33:07.818 [http-nio-9003-exec-9] ERROR c.p.P.controller.InventoryController - [getMessage] error message
+2023-05-16 15:33:13.960 [http-nio-9003-exec-10] ERROR c.p.P.controller.InventoryController - [getMessage] error message
+2023-05-16 15:34:13.224 [http-nio-9003-exec-1] ERROR c.p.P.controller.InventoryController - [getMessage] error message
+2023-05-16 15:34:55.160 [Eureka-Jersey3Client-Conn-Cleaner2] ERROR c.n.d.s.t.j.EurekaJersey3ClientImpl - Cannot clean connections
+java.lang.IllegalStateException: Client instance has been closed.
+	at org.glassfish.jersey.internal.guava.Preconditions.checkState(Preconditions.java:169)
+	at org.glassfish.jersey.client.JerseyClient.checkNotClosed(JerseyClient.java:257)
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:372)
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:56)
+	at com.netflix.discovery.shared.transport.jersey3.EurekaJersey3ClientImpl$ConnectionCleanerTask.run(EurekaJersey3ClientImpl.java:348)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)

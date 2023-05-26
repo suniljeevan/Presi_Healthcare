@@ -1,0 +1,481 @@
+2023-05-22 21:00:44,686 [main] INFO  BillingManagementApplication - Starting BillingManagementApplication using Java 17.0.6 on LAPTOP-5IVJGTKS with PID 26096 (C:\Users\Ruheena Zainab L\Downloads\PROJECT\billing-management\target\classes started by Ruheena Zainab L in C:\Users\Ruheena Zainab L\Downloads\PROJECT\billing-management)
+2023-05-22 21:00:44,698 [main] DEBUG BillingManagementApplication - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-05-22 21:00:44,700 [main] INFO  BillingManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-22 21:00:46,104 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-22 21:00:46,323 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 204 ms. Found 1 JPA repository interfaces.
+2023-05-22 21:00:46,652 [main] INFO  GenericScope - BeanFactory id=df7ecebe-6b16-3969-bf40-320902b797fb
+2023-05-22 21:00:47,194 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 9001 (http)
+2023-05-22 21:00:47,225 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9001"]
+2023-05-22 21:00:47,226 [main] INFO  StandardService - Starting service [Tomcat]
+2023-05-22 21:00:47,227 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-05-22 21:00:47,406 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2023-05-22 21:00:47,406 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2610 ms
+2023-05-22 21:00:48,024 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2023-05-22 21:00:48,123 [main] INFO  DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2023-05-22 21:00:48,124 [main] INFO  DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2023-05-22 21:00:48,382 [main] INFO  DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2023-05-22 21:00:48,382 [main] INFO  DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2023-05-22 21:00:48,954 [main] INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-22 21:00:49,051 [main] INFO  Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-22 21:00:49,298 [main] INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-22 21:00:49,474 [main] INFO  HikariDataSource - HikariPool-1 - Starting...
+2023-05-22 21:00:50,111 [main] INFO  HikariDataSource - HikariPool-1 - Start completed.
+2023-05-22 21:00:50,237 [main] INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-22 21:00:51,260 [main] INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-22 21:00:51,275 [main] INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-22 21:00:51,808 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-22 21:00:52,985 [main] INFO  DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
+2023-05-22 21:00:53,058 [main] WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-05-22 21:00:53,085 [main] INFO  InstanceInfoFactory - Setting initial instance status as: STARTING
+2023-05-22 21:00:53,143 [main] INFO  DiscoveryClient - Initializing Eureka in region us-east-1
+2023-05-22 21:00:53,252 [main] INFO  DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2023-05-22 21:00:53,253 [main] INFO  DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2023-05-22 21:00:53,253 [main] INFO  DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2023-05-22 21:00:53,253 [main] INFO  DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2023-05-22 21:00:53,367 [main] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:00:53,411 [main] INFO  DiscoveryClient - Disable delta property : false
+2023-05-22 21:00:53,411 [main] INFO  DiscoveryClient - Single vip registry refresh property : null
+2023-05-22 21:00:53,411 [main] INFO  DiscoveryClient - Force full registry fetch : false
+2023-05-22 21:00:53,411 [main] INFO  DiscoveryClient - Application is null : false
+2023-05-22 21:00:53,412 [main] INFO  DiscoveryClient - Registered Applications size is zero : true
+2023-05-22 21:00:53,412 [main] INFO  DiscoveryClient - Application version is -1: true
+2023-05-22 21:00:53,412 [main] INFO  DiscoveryClient - Getting all instance registry info from the eureka server
+2023-05-22 21:00:53,667 [main] INFO  DiscoveryClient - The response status is 200
+2023-05-22 21:00:53,672 [main] INFO  DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2023-05-22 21:00:53,677 [main] INFO  InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-05-22 21:00:53,683 [main] INFO  DiscoveryClient - Discovery Client initialized at timestamp 1684769453682 with initial instances count: 2
+2023-05-22 21:00:53,741 [main] INFO  DefaultEurekaServerContext - Initializing ...
+2023-05-22 21:00:53,743 [main] INFO  PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+2023-05-22 21:00:53,747 [main] INFO  DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2023-05-22 21:00:53,748 [main] INFO  DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2023-05-22 21:00:53,748 [main] INFO  DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2023-05-22 21:00:53,748 [main] INFO  DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2023-05-22 21:00:53,825 [main] INFO  PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+2023-05-22 21:00:53,835 [main] INFO  AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2023-05-22 21:00:53,836 [main] INFO  DefaultEurekaServerContext - Initialized
+2023-05-22 21:00:53,845 [main] INFO  EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-22 21:00:53,914 [main] INFO  EurekaServiceRegistry - Registering application BILLING-MANAGEMENT with eureka with status UP
+2023-05-22 21:00:53,915 [main] INFO  DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1684769453915, current=UP, previous=STARTING]
+2023-05-22 21:00:53,922 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9001: registering service...
+2023-05-22 21:00:53,923 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-9001"]
+2023-05-22 21:00:53,957 [Thread-10] INFO  EurekaServerBootstrap - isAws returned false
+2023-05-22 21:00:53,958 [Thread-10] INFO  EurekaServerBootstrap - Initialized server context
+2023-05-22 21:00:53,966 [Thread-10] INFO  AbstractInstanceRegistry - Registered instance API-GATEWAY/LAPTOP-5IVJGTKS:API-GATEWAY:9191 with status UP (replication=true)
+2023-05-22 21:00:53,967 [Thread-10] INFO  AbstractInstanceRegistry - Registered instance CONFIG-SERVER/LAPTOP-5IVJGTKS:CONFIG-SERVER:9296 with status UP (replication=true)
+2023-05-22 21:00:53,967 [Thread-10] INFO  PeerAwareInstanceRegistryImpl - Got 2 instances from neighboring DS node
+2023-05-22 21:00:53,968 [Thread-10] INFO  PeerAwareInstanceRegistryImpl - Renew threshold is: 3
+2023-05-22 21:00:53,969 [Thread-10] INFO  PeerAwareInstanceRegistryImpl - Changing status to UP
+2023-05-22 21:00:53,981 [Thread-10] INFO  EurekaServerInitializerConfiguration - Started Eureka Server
+2023-05-22 21:00:53,989 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9001 - registration status: 204
+2023-05-22 21:00:53,996 [main] INFO  TomcatWebServer - Tomcat started on port(s): 9001 (http) with context path ''
+2023-05-22 21:00:53,996 [main] INFO  EurekaAutoServiceRegistration - Updating port to 9001
+2023-05-22 21:00:54,178 [main] INFO  BillingManagementApplication - Started BillingManagementApplication in 10.333 seconds (JVM running for 14.557)
+2023-05-22 21:00:55,347 [RMI TCP Connection(5)-127.0.0.1] INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-22 21:00:55,347 [RMI TCP Connection(5)-127.0.0.1] INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-22 21:00:55,349 [RMI TCP Connection(5)-127.0.0.1] INFO  DispatcherServlet - Completed initialization in 2 ms
+2023-05-22 21:01:53,973 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:02:53,987 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2023-05-22 21:03:54,002 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 15ms
+2023-05-22 21:04:54,016 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2023-05-22 21:05:53,426 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:05:54,024 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2023-05-22 21:06:54,034 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2023-05-22 21:07:18,959 [main] INFO  BillingManagementApplication - Starting BillingManagementApplication using Java 17.0.6 on LAPTOP-5IVJGTKS with PID 11076 (C:\Users\Ruheena Zainab L\Downloads\PROJECT\billing-management\target\classes started by Ruheena Zainab L in C:\Users\Ruheena Zainab L\Downloads\PROJECT\billing-management)
+2023-05-22 21:07:18,964 [main] DEBUG BillingManagementApplication - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-05-22 21:07:18,965 [main] INFO  BillingManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-22 21:07:20,574 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-22 21:07:20,788 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 199 ms. Found 1 JPA repository interfaces.
+2023-05-22 21:07:21,147 [main] INFO  GenericScope - BeanFactory id=df7ecebe-6b16-3969-bf40-320902b797fb
+2023-05-22 21:07:21,690 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2023-05-22 21:07:21,710 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2023-05-22 21:07:21,711 [main] INFO  StandardService - Starting service [Tomcat]
+2023-05-22 21:07:21,712 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-05-22 21:07:21,879 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2023-05-22 21:07:21,879 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2816 ms
+2023-05-22 21:07:22,487 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2023-05-22 21:07:22,587 [main] INFO  DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2023-05-22 21:07:22,589 [main] INFO  DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2023-05-22 21:07:22,844 [main] INFO  DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2023-05-22 21:07:22,844 [main] INFO  DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2023-05-22 21:07:23,496 [main] INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-22 21:07:23,598 [main] INFO  Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-22 21:07:23,907 [main] INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-22 21:07:24,109 [main] INFO  HikariDataSource - HikariPool-1 - Starting...
+2023-05-22 21:07:24,700 [main] INFO  HikariDataSource - HikariPool-1 - Start completed.
+2023-05-22 21:07:24,822 [main] INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-22 21:07:25,953 [main] INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-22 21:07:25,973 [main] INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-22 21:07:26,555 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-22 21:07:27,734 [main] INFO  DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
+2023-05-22 21:07:27,810 [main] WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-05-22 21:07:27,839 [main] INFO  InstanceInfoFactory - Setting initial instance status as: STARTING
+2023-05-22 21:07:27,902 [main] INFO  DiscoveryClient - Initializing Eureka in region us-east-1
+2023-05-22 21:07:27,993 [main] INFO  DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2023-05-22 21:07:27,994 [main] INFO  DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2023-05-22 21:07:27,994 [main] INFO  DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2023-05-22 21:07:27,994 [main] INFO  DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2023-05-22 21:07:28,101 [main] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:07:28,132 [main] INFO  DiscoveryClient - Disable delta property : false
+2023-05-22 21:07:28,132 [main] INFO  DiscoveryClient - Single vip registry refresh property : null
+2023-05-22 21:07:28,132 [main] INFO  DiscoveryClient - Force full registry fetch : false
+2023-05-22 21:07:28,132 [main] INFO  DiscoveryClient - Application is null : false
+2023-05-22 21:07:28,132 [main] INFO  DiscoveryClient - Registered Applications size is zero : true
+2023-05-22 21:07:28,132 [main] INFO  DiscoveryClient - Application version is -1: true
+2023-05-22 21:07:28,132 [main] INFO  DiscoveryClient - Getting all instance registry info from the eureka server
+2023-05-22 21:07:28,403 [main] INFO  DiscoveryClient - The response status is 200
+2023-05-22 21:07:28,409 [main] INFO  DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2023-05-22 21:07:28,414 [main] INFO  InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-05-22 21:07:28,421 [main] INFO  DiscoveryClient - Discovery Client initialized at timestamp 1684769848419 with initial instances count: 5
+2023-05-22 21:07:28,476 [main] INFO  DefaultEurekaServerContext - Initializing ...
+2023-05-22 21:07:28,478 [main] INFO  PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+2023-05-22 21:07:28,482 [main] INFO  DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2023-05-22 21:07:28,483 [main] INFO  DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2023-05-22 21:07:28,483 [main] INFO  DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2023-05-22 21:07:28,483 [main] INFO  DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2023-05-22 21:07:28,584 [main] INFO  PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+2023-05-22 21:07:28,596 [main] INFO  AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2023-05-22 21:07:28,597 [main] INFO  DefaultEurekaServerContext - Initialized
+2023-05-22 21:07:28,606 [main] INFO  EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-22 21:07:28,681 [main] INFO  EurekaServiceRegistry - Registering application BILLING-MANAGEMENT with eureka with status UP
+2023-05-22 21:07:28,682 [main] INFO  DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1684769848682, current=UP, previous=STARTING]
+2023-05-22 21:07:28,688 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9004: registering service...
+2023-05-22 21:07:28,690 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2023-05-22 21:07:28,713 [Thread-10] INFO  EurekaServerBootstrap - isAws returned false
+2023-05-22 21:07:28,714 [Thread-10] INFO  EurekaServerBootstrap - Initialized server context
+2023-05-22 21:07:28,723 [Thread-10] INFO  AbstractInstanceRegistry - Registered instance API-GATEWAY/LAPTOP-5IVJGTKS:API-GATEWAY:9191 with status UP (replication=true)
+2023-05-22 21:07:28,724 [Thread-10] INFO  AbstractInstanceRegistry - Registered instance PHARMACY/LAPTOP-5IVJGTKS:PHARMACY:9003 with status UP (replication=true)
+2023-05-22 21:07:28,725 [Thread-10] INFO  AbstractInstanceRegistry - Registered instance HOSPITAL-MANAGEMENT/LAPTOP-5IVJGTKS:HOSPITAL-MANAGEMENT:9002 with status UP (replication=true)
+2023-05-22 21:07:28,725 [Thread-10] INFO  AbstractInstanceRegistry - Registered instance BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9001 with status UP (replication=true)
+2023-05-22 21:07:28,726 [Thread-10] INFO  AbstractInstanceRegistry - Registered instance CONFIG-SERVER/LAPTOP-5IVJGTKS:CONFIG-SERVER:9296 with status UP (replication=true)
+2023-05-22 21:07:28,727 [Thread-10] INFO  PeerAwareInstanceRegistryImpl - Got 5 instances from neighboring DS node
+2023-05-22 21:07:28,727 [Thread-10] INFO  PeerAwareInstanceRegistryImpl - Renew threshold is: 8
+2023-05-22 21:07:28,727 [Thread-10] INFO  PeerAwareInstanceRegistryImpl - Changing status to UP
+2023-05-22 21:07:28,737 [Thread-10] INFO  EurekaServerInitializerConfiguration - Started Eureka Server
+2023-05-22 21:07:28,747 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9004 - registration status: 204
+2023-05-22 21:07:28,756 [main] INFO  TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2023-05-22 21:07:28,757 [main] INFO  EurekaAutoServiceRegistration - Updating port to 9004
+2023-05-22 21:07:28,938 [main] INFO  BillingManagementApplication - Started BillingManagementApplication in 10.826 seconds (JVM running for 14.844)
+2023-05-22 21:07:29,972 [RMI TCP Connection(7)-127.0.0.1] INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-22 21:07:29,972 [RMI TCP Connection(7)-127.0.0.1] INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-22 21:07:29,974 [RMI TCP Connection(7)-127.0.0.1] INFO  DispatcherServlet - Completed initialization in 2 ms
+2023-05-22 21:07:54,039 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2023-05-22 21:08:28,729 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:08:54,039 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:09:18,943 [RMI TCP Connection(10)-127.0.0.1] INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-05-22 21:09:18,944 [RMI TCP Connection(10)-127.0.0.1] INFO  EurekaServiceRegistry - Unregistering application BILLING-MANAGEMENT with eureka with status DOWN
+2023-05-22 21:09:18,945 [RMI TCP Connection(10)-127.0.0.1] INFO  DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1684769958945, current=DOWN, previous=UP]
+2023-05-22 21:09:18,945 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9004: registering service...
+2023-05-22 21:09:18,955 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9004 - registration status: 204
+2023-05-22 21:09:18,963 [RMI TCP Connection(10)-127.0.0.1] INFO  Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9004"]
+2023-05-22 21:09:18,964 [RMI TCP Connection(10)-127.0.0.1] INFO  StandardService - Stopping service [Tomcat]
+2023-05-22 21:09:18,967 [RMI TCP Connection(10)-127.0.0.1] INFO  [/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-22 21:09:18,974 [RMI TCP Connection(10)-127.0.0.1] INFO  Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9004"]
+2023-05-22 21:09:18,977 [RMI TCP Connection(10)-127.0.0.1] INFO  Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9004"]
+2023-05-22 21:09:18,977 [RMI TCP Connection(10)-127.0.0.1] INFO  EurekaServerBootstrap - Shutting down Eureka Server..
+2023-05-22 21:09:18,981 [RMI TCP Connection(10)-127.0.0.1] INFO  DefaultEurekaServerContext - Shutting down ...
+2023-05-22 21:09:18,994 [RMI TCP Connection(10)-127.0.0.1] INFO  DefaultEurekaServerContext - Shut down
+2023-05-22 21:09:18,994 [RMI TCP Connection(10)-127.0.0.1] INFO  EurekaServerBootstrap - Eureka Service is now shutdown...
+2023-05-22 21:09:18,994 [RMI TCP Connection(10)-127.0.0.1] INFO  DefaultEurekaServerContext - Shutting down ...
+2023-05-22 21:09:19,000 [RMI TCP Connection(10)-127.0.0.1] INFO  DefaultEurekaServerContext - Shut down
+2023-05-22 21:09:19,008 [RMI TCP Connection(10)-127.0.0.1] INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-22 21:09:19,013 [RMI TCP Connection(10)-127.0.0.1] INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-22 21:09:19,024 [RMI TCP Connection(10)-127.0.0.1] INFO  HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-22 21:09:19,026 [RMI TCP Connection(10)-127.0.0.1] INFO  DiscoveryClient - Shutting down DiscoveryClient ...
+2023-05-22 21:09:21,468 [RMI TCP Connection(17)-127.0.0.1] INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-05-22 21:09:21,501 [RMI TCP Connection(17)-127.0.0.1] INFO  EurekaServiceRegistry - Unregistering application BILLING-MANAGEMENT with eureka with status DOWN
+2023-05-22 21:09:21,502 [RMI TCP Connection(17)-127.0.0.1] INFO  DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1684769961502, current=DOWN, previous=UP]
+2023-05-22 21:09:21,502 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9001: registering service...
+2023-05-22 21:09:21,514 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9001 - registration status: 204
+2023-05-22 21:09:21,576 [RMI TCP Connection(17)-127.0.0.1] INFO  Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9001"]
+2023-05-22 21:09:21,577 [RMI TCP Connection(17)-127.0.0.1] INFO  StandardService - Stopping service [Tomcat]
+2023-05-22 21:09:21,579 [RMI TCP Connection(18)-127.0.0.1] INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-05-22 21:09:21,585 [RMI TCP Connection(17)-127.0.0.1] INFO  [/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-22 21:09:21,613 [RMI TCP Connection(17)-127.0.0.1] INFO  Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9001"]
+2023-05-22 21:09:21,618 [RMI TCP Connection(17)-127.0.0.1] INFO  Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9001"]
+2023-05-22 21:09:21,620 [RMI TCP Connection(17)-127.0.0.1] INFO  EurekaServerBootstrap - Shutting down Eureka Server..
+2023-05-22 21:09:21,636 [RMI TCP Connection(17)-127.0.0.1] INFO  DefaultEurekaServerContext - Shutting down ...
+2023-05-22 21:09:21,673 [RMI TCP Connection(17)-127.0.0.1] INFO  DefaultEurekaServerContext - Shut down
+2023-05-22 21:09:21,674 [RMI TCP Connection(17)-127.0.0.1] INFO  EurekaServerBootstrap - Eureka Service is now shutdown...
+2023-05-22 21:09:21,678 [RMI TCP Connection(17)-127.0.0.1] INFO  DefaultEurekaServerContext - Shutting down ...
+2023-05-22 21:09:21,696 [RMI TCP Connection(17)-127.0.0.1] INFO  DefaultEurekaServerContext - Shut down
+2023-05-22 21:09:21,715 [RMI TCP Connection(17)-127.0.0.1] INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-22 21:09:21,736 [RMI TCP Connection(17)-127.0.0.1] INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-22 21:09:21,760 [RMI TCP Connection(17)-127.0.0.1] INFO  HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-22 21:09:21,764 [RMI TCP Connection(17)-127.0.0.1] INFO  DiscoveryClient - Shutting down DiscoveryClient ...
+2023-05-22 21:22:08,852 [main] INFO  BillingManagementApplication - Starting BillingManagementApplication using Java 17.0.6 on LAPTOP-5IVJGTKS with PID 17328 (C:\Users\Ruheena Zainab L\Downloads\PROJECT\billing-management\target\classes started by Ruheena Zainab L in C:\Users\Ruheena Zainab L\Downloads\PROJECT\billing-management)
+2023-05-22 21:22:08,856 [main] DEBUG BillingManagementApplication - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-05-22 21:22:08,857 [main] INFO  BillingManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-22 21:22:10,454 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-22 21:22:10,683 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 212 ms. Found 1 JPA repository interfaces.
+2023-05-22 21:22:11,202 [main] INFO  GenericScope - BeanFactory id=df7ecebe-6b16-3969-bf40-320902b797fb
+2023-05-22 21:22:11,872 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 9001 (http)
+2023-05-22 21:22:11,900 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9001"]
+2023-05-22 21:22:11,900 [main] INFO  StandardService - Starting service [Tomcat]
+2023-05-22 21:22:11,901 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-05-22 21:22:12,114 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2023-05-22 21:22:12,115 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3168 ms
+2023-05-22 21:22:12,739 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2023-05-22 21:22:12,830 [main] INFO  DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2023-05-22 21:22:12,832 [main] INFO  DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2023-05-22 21:22:13,077 [main] INFO  DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2023-05-22 21:22:13,077 [main] INFO  DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2023-05-22 21:22:13,695 [main] INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-22 21:22:13,794 [main] INFO  Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-22 21:22:14,066 [main] INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-22 21:22:14,271 [main] INFO  HikariDataSource - HikariPool-1 - Starting...
+2023-05-22 21:22:14,927 [main] INFO  HikariDataSource - HikariPool-1 - Start completed.
+2023-05-22 21:22:15,069 [main] INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-22 21:22:16,554 [main] INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-22 21:22:16,575 [main] INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-22 21:22:17,329 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-22 21:22:17,466 [main] INFO  BillingManagementApplication - Starting BillingManagementApplication using Java 17.0.6 on LAPTOP-5IVJGTKS with PID 19784 (C:\Users\Ruheena Zainab L\Downloads\PROJECT\billing-management\target\classes started by Ruheena Zainab L in C:\Users\Ruheena Zainab L\Downloads\PROJECT\billing-management)
+2023-05-22 21:22:17,472 [main] DEBUG BillingManagementApplication - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-05-22 21:22:17,474 [main] INFO  BillingManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-22 21:22:18,990 [main] INFO  DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
+2023-05-22 21:22:19,058 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-22 21:22:19,091 [main] WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-05-22 21:22:19,132 [main] INFO  InstanceInfoFactory - Setting initial instance status as: STARTING
+2023-05-22 21:22:19,216 [main] INFO  DiscoveryClient - Initializing Eureka in region us-east-1
+2023-05-22 21:22:19,340 [main] INFO  DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2023-05-22 21:22:19,340 [main] INFO  DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2023-05-22 21:22:19,341 [main] INFO  DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2023-05-22 21:22:19,341 [main] INFO  DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2023-05-22 21:22:19,393 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 316 ms. Found 1 JPA repository interfaces.
+2023-05-22 21:22:19,466 [main] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:22:19,525 [main] INFO  DiscoveryClient - Disable delta property : false
+2023-05-22 21:22:19,526 [main] INFO  DiscoveryClient - Single vip registry refresh property : null
+2023-05-22 21:22:19,526 [main] INFO  DiscoveryClient - Force full registry fetch : false
+2023-05-22 21:22:19,526 [main] INFO  DiscoveryClient - Application is null : false
+2023-05-22 21:22:19,526 [main] INFO  DiscoveryClient - Registered Applications size is zero : true
+2023-05-22 21:22:19,526 [main] INFO  DiscoveryClient - Application version is -1: true
+2023-05-22 21:22:19,526 [main] INFO  DiscoveryClient - Getting all instance registry info from the eureka server
+2023-05-22 21:22:19,835 [main] INFO  GenericScope - BeanFactory id=df7ecebe-6b16-3969-bf40-320902b797fb
+2023-05-22 21:22:19,870 [main] INFO  DiscoveryClient - The response status is 200
+2023-05-22 21:22:19,876 [main] INFO  DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2023-05-22 21:22:19,883 [main] INFO  InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-05-22 21:22:19,891 [main] INFO  DiscoveryClient - Discovery Client initialized at timestamp 1684770739888 with initial instances count: 6
+2023-05-22 21:22:19,975 [main] INFO  DefaultEurekaServerContext - Initializing ...
+2023-05-22 21:22:19,978 [main] INFO  PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+2023-05-22 21:22:19,982 [main] INFO  DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2023-05-22 21:22:19,983 [main] INFO  DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2023-05-22 21:22:19,983 [main] INFO  DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2023-05-22 21:22:19,983 [main] INFO  DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2023-05-22 21:22:20,100 [main] INFO  PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+2023-05-22 21:22:20,119 [main] INFO  AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2023-05-22 21:22:20,120 [main] INFO  DefaultEurekaServerContext - Initialized
+2023-05-22 21:22:20,135 [main] INFO  EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-22 21:22:20,320 [main] INFO  EurekaServiceRegistry - Registering application BILLING-MANAGEMENT with eureka with status UP
+2023-05-22 21:22:20,321 [main] INFO  DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1684770740320, current=UP, previous=STARTING]
+2023-05-22 21:22:20,329 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9001: registering service...
+2023-05-22 21:22:20,336 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-9001"]
+2023-05-22 21:22:20,386 [Thread-10] INFO  EurekaServerBootstrap - isAws returned false
+2023-05-22 21:22:20,395 [Thread-10] INFO  EurekaServerBootstrap - Initialized server context
+2023-05-22 21:22:20,408 [Thread-10] INFO  AbstractInstanceRegistry - Registered instance API-GATEWAY/LAPTOP-5IVJGTKS:API-GATEWAY:9191 with status UP (replication=true)
+2023-05-22 21:22:20,409 [Thread-10] INFO  AbstractInstanceRegistry - Registered instance CONFIG-SERVER/LAPTOP-5IVJGTKS:CONFIG-SERVER:9296 with status UP (replication=true)
+2023-05-22 21:22:20,415 [Thread-10] INFO  PeerAwareInstanceRegistryImpl - Got 2 instances from neighboring DS node
+2023-05-22 21:22:20,415 [Thread-10] INFO  PeerAwareInstanceRegistryImpl - Renew threshold is: 3
+2023-05-22 21:22:20,416 [Thread-10] INFO  PeerAwareInstanceRegistryImpl - Changing status to UP
+2023-05-22 21:22:20,432 [Thread-10] INFO  EurekaServerInitializerConfiguration - Started Eureka Server
+2023-05-22 21:22:20,438 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9001 - registration status: 204
+2023-05-22 21:22:20,476 [main] INFO  TomcatWebServer - Tomcat started on port(s): 9001 (http) with context path ''
+2023-05-22 21:22:20,477 [main] INFO  EurekaAutoServiceRegistration - Updating port to 9001
+2023-05-22 21:22:20,785 [main] INFO  BillingManagementApplication - Started BillingManagementApplication in 12.735 seconds (JVM running for 16.881)
+2023-05-22 21:22:20,863 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 9004 (http)
+2023-05-22 21:22:20,889 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9004"]
+2023-05-22 21:22:20,890 [main] INFO  StandardService - Starting service [Tomcat]
+2023-05-22 21:22:20,891 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-05-22 21:22:21,097 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2023-05-22 21:22:21,097 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3518 ms
+2023-05-22 21:22:21,716 [RMI TCP Connection(5)-127.0.0.1] INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-22 21:22:21,717 [RMI TCP Connection(5)-127.0.0.1] INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-22 21:22:21,720 [RMI TCP Connection(5)-127.0.0.1] INFO  DispatcherServlet - Completed initialization in 3 ms
+2023-05-22 21:22:21,799 [main] INFO  WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2023-05-22 21:22:21,909 [main] INFO  DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2023-05-22 21:22:21,911 [main] INFO  DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2023-05-22 21:22:22,163 [main] INFO  DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2023-05-22 21:22:22,163 [main] INFO  DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2023-05-22 21:22:22,771 [main] INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-22 21:22:22,844 [main] INFO  Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-22 21:22:23,071 [main] INFO  Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-22 21:22:23,239 [main] INFO  HikariDataSource - HikariPool-1 - Starting...
+2023-05-22 21:22:23,772 [main] INFO  HikariDataSource - HikariPool-1 - Start completed.
+2023-05-22 21:22:23,877 [main] INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-22 21:22:24,722 [main] INFO  JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-22 21:22:24,735 [main] INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-22 21:22:25,238 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-22 21:22:26,523 [main] INFO  DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
+2023-05-22 21:22:26,597 [main] WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-05-22 21:22:26,636 [main] INFO  InstanceInfoFactory - Setting initial instance status as: STARTING
+2023-05-22 21:22:26,696 [main] INFO  DiscoveryClient - Initializing Eureka in region us-east-1
+2023-05-22 21:22:26,791 [main] INFO  DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2023-05-22 21:22:26,792 [main] INFO  DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2023-05-22 21:22:26,792 [main] INFO  DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2023-05-22 21:22:26,792 [main] INFO  DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2023-05-22 21:22:26,905 [main] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:22:26,935 [main] INFO  DiscoveryClient - Disable delta property : false
+2023-05-22 21:22:26,935 [main] INFO  DiscoveryClient - Single vip registry refresh property : null
+2023-05-22 21:22:26,936 [main] INFO  DiscoveryClient - Force full registry fetch : false
+2023-05-22 21:22:26,936 [main] INFO  DiscoveryClient - Application is null : false
+2023-05-22 21:22:26,936 [main] INFO  DiscoveryClient - Registered Applications size is zero : true
+2023-05-22 21:22:26,936 [main] INFO  DiscoveryClient - Application version is -1: true
+2023-05-22 21:22:26,936 [main] INFO  DiscoveryClient - Getting all instance registry info from the eureka server
+2023-05-22 21:22:27,184 [main] INFO  DiscoveryClient - The response status is 200
+2023-05-22 21:22:27,189 [main] INFO  DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2023-05-22 21:22:27,194 [main] INFO  InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-05-22 21:22:27,201 [main] INFO  DiscoveryClient - Discovery Client initialized at timestamp 1684770747199 with initial instances count: 6
+2023-05-22 21:22:27,256 [main] INFO  DefaultEurekaServerContext - Initializing ...
+2023-05-22 21:22:27,258 [main] INFO  PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+2023-05-22 21:22:27,264 [main] INFO  DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2023-05-22 21:22:27,264 [main] INFO  DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2023-05-22 21:22:27,264 [main] INFO  DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2023-05-22 21:22:27,264 [main] INFO  DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2023-05-22 21:22:27,357 [main] INFO  PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+2023-05-22 21:22:27,369 [main] INFO  AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2023-05-22 21:22:27,370 [main] INFO  DefaultEurekaServerContext - Initialized
+2023-05-22 21:22:27,378 [main] INFO  EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-22 21:22:27,455 [main] INFO  EurekaServiceRegistry - Registering application BILLING-MANAGEMENT with eureka with status UP
+2023-05-22 21:22:27,455 [main] INFO  DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1684770747455, current=UP, previous=STARTING]
+2023-05-22 21:22:27,459 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9004: registering service...
+2023-05-22 21:22:27,461 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-9004"]
+2023-05-22 21:22:27,481 [Thread-10] INFO  EurekaServerBootstrap - isAws returned false
+2023-05-22 21:22:27,483 [Thread-10] INFO  EurekaServerBootstrap - Initialized server context
+2023-05-22 21:22:27,491 [Thread-10] INFO  AbstractInstanceRegistry - Registered instance API-GATEWAY/LAPTOP-5IVJGTKS:API-GATEWAY:9191 with status UP (replication=true)
+2023-05-22 21:22:27,492 [Thread-10] INFO  AbstractInstanceRegistry - Registered instance CONFIG-SERVER/LAPTOP-5IVJGTKS:CONFIG-SERVER:9296 with status UP (replication=true)
+2023-05-22 21:22:27,493 [Thread-10] INFO  PeerAwareInstanceRegistryImpl - Got 2 instances from neighboring DS node
+2023-05-22 21:22:27,493 [Thread-10] INFO  PeerAwareInstanceRegistryImpl - Renew threshold is: 3
+2023-05-22 21:22:27,493 [Thread-10] INFO  PeerAwareInstanceRegistryImpl - Changing status to UP
+2023-05-22 21:22:27,510 [Thread-10] INFO  EurekaServerInitializerConfiguration - Started Eureka Server
+2023-05-22 21:22:27,527 [main] INFO  TomcatWebServer - Tomcat started on port(s): 9004 (http) with context path ''
+2023-05-22 21:22:27,528 [main] INFO  EurekaAutoServiceRegistration - Updating port to 9004
+2023-05-22 21:22:27,553 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9004 - registration status: 204
+2023-05-22 21:22:27,705 [main] INFO  BillingManagementApplication - Started BillingManagementApplication in 11.242 seconds (JVM running for 15.634)
+2023-05-22 21:22:28,561 [RMI TCP Connection(5)-127.0.0.1] INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-22 21:22:28,561 [RMI TCP Connection(5)-127.0.0.1] INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-22 21:22:28,563 [RMI TCP Connection(5)-127.0.0.1] INFO  DispatcherServlet - Completed initialization in 2 ms
+2023-05-22 21:23:20,421 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:23:27,495 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:24:20,426 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2023-05-22 21:24:27,499 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2023-05-22 21:25:20,439 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2023-05-22 21:25:27,504 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2023-05-22 21:26:20,444 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2023-05-22 21:26:27,513 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 9ms
+2023-05-22 21:27:19,541 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:27:20,458 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2023-05-22 21:27:26,958 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:27:27,514 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:28:20,464 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2023-05-22 21:28:27,526 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2023-05-22 21:29:20,465 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2023-05-22 21:29:27,538 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2023-05-22 21:30:20,474 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 9ms
+2023-05-22 21:30:27,539 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2023-05-22 21:31:20,480 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2023-05-22 21:31:27,546 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2023-05-22 21:32:19,550 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:32:20,496 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 15ms
+2023-05-22 21:32:26,978 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:32:27,559 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2023-05-22 21:33:20,511 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2023-05-22 21:33:27,571 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2023-05-22 21:34:20,514 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2023-05-22 21:34:27,577 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2023-05-22 21:35:20,529 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 15ms
+2023-05-22 21:35:27,579 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2023-05-22 21:36:20,538 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2023-05-22 21:36:27,589 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2023-05-22 21:37:19,580 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:37:20,138 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  PeerAwareInstanceRegistryImpl - Current renewal threshold is : 11
+2023-05-22 21:37:20,538 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:37:27,002 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:37:27,400 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  PeerAwareInstanceRegistryImpl - Current renewal threshold is : 11
+2023-05-22 21:37:27,604 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2023-05-22 21:38:20,546 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2023-05-22 21:38:27,619 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2023-05-22 21:39:20,547 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2023-05-22 21:39:27,620 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:40:20,547 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:40:27,620 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:41:20,548 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:41:27,621 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:42:19,587 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:42:20,548 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:42:27,005 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:42:27,622 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:43:20,548 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:43:27,622 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:44:20,549 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:44:27,623 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:45:20,550 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:45:27,624 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:46:20,550 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:46:27,624 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:47:19,590 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:47:20,551 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2023-05-22 21:47:27,007 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:47:27,625 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2023-05-22 21:48:20,555 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2023-05-22 21:48:27,626 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:49:20,556 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2023-05-22 21:49:27,626 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:50:20,557 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:50:27,627 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:51:20,557 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:51:27,627 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:52:19,591 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:52:20,137 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  PeerAwareInstanceRegistryImpl - Current renewal threshold is : 11
+2023-05-22 21:52:20,558 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:52:27,009 [AsyncResolver-bootstrap-executor-0] INFO  ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-22 21:52:27,389 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  PeerAwareInstanceRegistryImpl - Current renewal threshold is : 11
+2023-05-22 21:52:27,627 [Eureka-EvictionTimer] INFO  AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2023-05-22 21:53:05,560 [RMI TCP Connection(40)-127.0.0.1] INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-05-22 21:53:05,598 [RMI TCP Connection(40)-127.0.0.1] INFO  EurekaServiceRegistry - Unregistering application BILLING-MANAGEMENT with eureka with status DOWN
+2023-05-22 21:53:05,601 [RMI TCP Connection(40)-127.0.0.1] INFO  DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1684772585601, current=DOWN, previous=UP]
+2023-05-22 21:53:05,602 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9004: registering service...
+2023-05-22 21:53:05,621 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9004 - registration status: 204
+2023-05-22 21:53:05,753 [RMI TCP Connection(41)-127.0.0.1] INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-05-22 21:53:05,789 [RMI TCP Connection(40)-127.0.0.1] INFO  Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9004"]
+2023-05-22 21:53:05,790 [RMI TCP Connection(40)-127.0.0.1] INFO  StandardService - Stopping service [Tomcat]
+2023-05-22 21:53:05,808 [RMI TCP Connection(40)-127.0.0.1] INFO  [/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-22 21:53:05,853 [RMI TCP Connection(42)-127.0.0.1] INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-05-22 21:53:05,859 [RMI TCP Connection(40)-127.0.0.1] INFO  Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9004"]
+2023-05-22 21:53:05,867 [RMI TCP Connection(40)-127.0.0.1] INFO  Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9004"]
+2023-05-22 21:53:05,870 [RMI TCP Connection(40)-127.0.0.1] INFO  EurekaServerBootstrap - Shutting down Eureka Server..
+2023-05-22 21:53:05,886 [RMI TCP Connection(40)-127.0.0.1] INFO  DefaultEurekaServerContext - Shutting down ...
+2023-05-22 21:53:05,892 [RMI TCP Connection(40)-127.0.0.1] INFO  StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2023-05-22 21:53:05,897 [RMI TCP Connection(40)-127.0.0.1] INFO  StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2023-05-22 21:53:05,899 [RMI TCP Connection(40)-127.0.0.1] INFO  StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2023-05-22 21:53:05,900 [RMI TCP Connection(40)-127.0.0.1] INFO  StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2023-05-22 21:53:05,927 [RMI TCP Connection(40)-127.0.0.1] INFO  DefaultEurekaServerContext - Shut down
+2023-05-22 21:53:05,928 [RMI TCP Connection(40)-127.0.0.1] INFO  EurekaServerBootstrap - Eureka Service is now shutdown...
+2023-05-22 21:53:05,937 [RMI TCP Connection(40)-127.0.0.1] INFO  DefaultEurekaServerContext - Shutting down ...
+2023-05-22 21:53:05,953 [RMI TCP Connection(40)-127.0.0.1] INFO  DefaultEurekaServerContext - Shut down
+2023-05-22 21:53:05,975 [RMI TCP Connection(40)-127.0.0.1] INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-22 21:53:06,009 [RMI TCP Connection(40)-127.0.0.1] INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-22 21:53:06,023 [RMI TCP Connection(40)-127.0.0.1] INFO  HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-22 21:53:06,028 [RMI TCP Connection(40)-127.0.0.1] INFO  DiscoveryClient - Shutting down DiscoveryClient ...
+2023-05-22 21:53:09,033 [RMI TCP Connection(39)-127.0.0.1] INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-05-22 21:53:09,062 [RMI TCP Connection(39)-127.0.0.1] INFO  EurekaServiceRegistry - Unregistering application BILLING-MANAGEMENT with eureka with status DOWN
+2023-05-22 21:53:09,063 [RMI TCP Connection(39)-127.0.0.1] INFO  DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1684772589063, current=DOWN, previous=UP]
+2023-05-22 21:53:09,063 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9001: registering service...
+2023-05-22 21:53:09,084 [DiscoveryClient-InstanceInfoReplicator-0] INFO  DiscoveryClient - DiscoveryClient_BILLING-MANAGEMENT/LAPTOP-5IVJGTKS:BILLING-MANAGEMENT:9001 - registration status: 204
+2023-05-22 21:53:09,171 [RMI TCP Connection(39)-127.0.0.1] INFO  Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9001"]
+2023-05-22 21:53:09,172 [RMI TCP Connection(39)-127.0.0.1] INFO  StandardService - Stopping service [Tomcat]
+2023-05-22 21:53:09,190 [RMI TCP Connection(39)-127.0.0.1] INFO  [/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-22 21:53:09,231 [RMI TCP Connection(41)-127.0.0.1] INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-05-22 21:53:09,232 [RMI TCP Connection(39)-127.0.0.1] INFO  Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9001"]
+2023-05-22 21:53:09,239 [RMI TCP Connection(39)-127.0.0.1] INFO  Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9001"]
+2023-05-22 21:53:09,240 [RMI TCP Connection(39)-127.0.0.1] INFO  EurekaServerBootstrap - Shutting down Eureka Server..
+2023-05-22 21:53:09,256 [RMI TCP Connection(39)-127.0.0.1] INFO  DefaultEurekaServerContext - Shutting down ...
+2023-05-22 21:53:09,259 [RMI TCP Connection(39)-127.0.0.1] INFO  StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2023-05-22 21:53:09,262 [RMI TCP Connection(39)-127.0.0.1] INFO  StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2023-05-22 21:53:09,263 [RMI TCP Connection(39)-127.0.0.1] INFO  StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2023-05-22 21:53:09,264 [RMI TCP Connection(39)-127.0.0.1] INFO  StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2023-05-22 21:53:09,293 [RMI TCP Connection(39)-127.0.0.1] INFO  DefaultEurekaServerContext - Shut down
+2023-05-22 21:53:09,293 [RMI TCP Connection(39)-127.0.0.1] INFO  EurekaServerBootstrap - Eureka Service is now shutdown...
+2023-05-22 21:53:09,295 [RMI TCP Connection(39)-127.0.0.1] INFO  DefaultEurekaServerContext - Shutting down ...
+2023-05-22 21:53:09,310 [RMI TCP Connection(39)-127.0.0.1] INFO  DefaultEurekaServerContext - Shut down
+2023-05-22 21:53:09,330 [RMI TCP Connection(39)-127.0.0.1] INFO  LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-22 21:53:09,354 [RMI TCP Connection(39)-127.0.0.1] INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-22 21:53:09,366 [RMI TCP Connection(39)-127.0.0.1] INFO  HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-22 21:53:09,370 [RMI TCP Connection(39)-127.0.0.1] INFO  DiscoveryClient - Shutting down DiscoveryClient ...

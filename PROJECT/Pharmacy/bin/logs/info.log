@@ -1,0 +1,59 @@
+2023-05-06 11:12:49.428 INFO  [restartedMain] c.pres.Pharmacy.PharmacyApplication - Starting PharmacyApplication using Java 17.0.7 with PID 14776 (C:\Users\ss630\Downloads\Pharmacy\Pharmacy\target\classes started by ss630 in C:\Users\ss630\Downloads\Pharmacy\Pharmacy)
+2023-05-06 11:12:49.436 INFO  [restartedMain] c.pres.Pharmacy.PharmacyApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-06 11:12:49.564 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-06 11:12:49.565 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-06 11:12:50.481 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-06 11:12:50.584 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92 ms. Found 2 JPA repository interfaces.
+2023-05-06 11:12:51.719 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2023-05-06 11:12:51.756 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2023-05-06 11:12:51.758 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-06 11:12:51.760 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-06 11:12:51.916 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-06 11:12:51.916 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2347 ms
+2023-05-06 11:12:52.222 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-06 11:12:52.334 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-06 11:12:52.802 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-06 11:12:54.129 INFO  [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-05-06 11:12:54.973 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-06 11:12:56.045 INFO  [restartedMain] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-05-06 11:12:56.115 INFO  [restartedMain] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-05-06 11:13:34.322 INFO  [restartedMain] c.pres.Pharmacy.PharmacyApplication - Starting PharmacyApplication using Java 17.0.7 with PID 11744 (C:\Users\ss630\Downloads\Pharmacy\Pharmacy\target\classes started by ss630 in C:\Users\ss630\Downloads\Pharmacy\Pharmacy)
+2023-05-06 11:13:34.343 INFO  [restartedMain] c.pres.Pharmacy.PharmacyApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-06 11:13:34.464 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-06 11:13:34.464 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-06 11:13:35.627 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-06 11:13:35.771 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 111 ms. Found 2 JPA repository interfaces.
+2023-05-06 11:13:37.347 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2023-05-06 11:13:37.398 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2023-05-06 11:13:37.405 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-06 11:13:37.407 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-06 11:13:37.567 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-06 11:13:37.570 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3098 ms
+2023-05-06 11:13:37.895 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-06 11:13:37.997 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-06 11:13:38.634 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-06 11:13:40.176 INFO  [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-05-06 11:13:41.844 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-06 11:13:42.912 INFO  [restartedMain] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-05-06 11:13:42.944 INFO  [restartedMain] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-05-06 11:14:16.722 INFO  [restartedMain] c.pres.Pharmacy.PharmacyApplication - Starting PharmacyApplication using Java 17.0.7 with PID 17712 (C:\Users\ss630\Downloads\Pharmacy\Pharmacy\target\classes started by ss630 in C:\Users\ss630\Downloads\Pharmacy\Pharmacy)
+2023-05-06 11:14:16.729 INFO  [restartedMain] c.pres.Pharmacy.PharmacyApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-06 11:14:16.851 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-06 11:14:16.853 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-06 11:14:18.021 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-06 11:14:18.171 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100 ms. Found 2 JPA repository interfaces.
+2023-05-06 11:14:20.185 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2023-05-06 11:14:20.212 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2023-05-06 11:14:20.214 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-06 11:14:20.215 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-06 11:14:20.371 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-06 11:14:20.373 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3518 ms
+2023-05-06 11:14:21.122 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-06 11:14:22.235 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-06 11:14:23.647 INFO  [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-05-06 11:14:25.436 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-06 11:14:26.517 INFO  [restartedMain] o.a.catalina.core.StandardService - Stopping service [Tomcat]

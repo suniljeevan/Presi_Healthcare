@@ -1,0 +1,2 @@
+2023-05-22 21:02:19.902 [http-nio-9003-exec-1] ERROR c.p.P.controller.PharmacyController - [getMessage] error message
+2023-05-22 21:02:22.589 [http-nio-9003-exec-2] ERROR c.p.P.controller.InventoryController - [getMessage] error message

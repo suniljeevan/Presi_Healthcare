@@ -1,0 +1,41 @@
+server:
+  port: 9191
+  
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+      
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+      - id: BILLING-MANAGEMENT
+        uri: lb://BILLING-MANAGEMENT
+        predicates:
+        - Path=/billing/**
+      - id: HOSPITAL-MANAGEMENT
+        uri: lb://HOSPITAL-MANAGEMENT
+        predicates:
+        - Path=/appointment/**
+      - id: HOSPITAL-MANAGEMENT
+        uri: lb://HOSPITAL-MANAGEMENT
+        predicates:
+        - Path=/doctor/**
+      - id: HOSPITAL-MANAGEMENT
+        uri: lb://HOSPITAL-MANAGEMENT
+        predicates:
+        - Path=/patient/**
+      - id: PHARMACY
+        uri: lb://PHARMACY
+        predicates:
+        - Path=/Pharmacy/**
+      - id: PHARMACY
+        uri: lb://PHARMACY
+        predicates:
+        - Path=/inventory/**
+
